@@ -4,7 +4,6 @@ Making an automonus vessel that survey the seabed, and can detect lobster trap f
 - [Group](#Group)
 - [Balder](#Balder)
 - [Data](#Data)
-- [Software](#Software)
 
 # Group
 ![Group](https://github.com/dr0nn1/USVSounder/blob/master/pictures/group.png)
