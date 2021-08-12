@@ -1,5 +1,5 @@
-# USV sounder
-Making an automonus vessel that survey the seabed, and can detect lobster trap from the data collected from a Multibeam Echo.
+# USV Sounder
+Making an automonus vessel that surveys the seabed, and can detect lobster traps from the data collected from a Multibeam Echo.
 # Table of Contents
 - [Group](#group)
 - [Balder](#balder)
@@ -44,7 +44,7 @@ Making an automonus vessel that survey the seabed, and can detect lobster trap f
 
 # Data
 ## Water column
-Water column is the raw data from the multibeam which just tells how much sound is return from differents depths.
+Water column is the raw data from the multibeam which tells how much sound is returned from differents depths.
 In water colum it was difficult to spot what the object on the picture was. On the picture below a lobster trap is shown.
 ![Water column](https://github.com/dr0nn1/USVSounder/blob/master/pictures/waterColumn.png)
 
@@ -61,11 +61,11 @@ This could potentially be the best viable option to detect different object on t
 
 ## Seabed
 Seabed is a simplification of multiple water column data which visually represents the hardness of the seabed.
-This option was choosen due to this was the easiest data to work with, and had great potential. 
+This option was chosen as this was the easiest data to work with, and had great potential. 
 ![Seabed](https://github.com/dr0nn1/USVSounder/blob/master/pictures/seabedWithCrabPot.png)
 *A seabed image with lobster trap.*  
 
-The picture below shows a prediction from are model. 
+The picture below shows a prediction from our model. 
 ![Result](https://github.com/dr0nn1/USVSounder/blob/master/pictures/result.png)
 *Seabed picture after detection.*
 
