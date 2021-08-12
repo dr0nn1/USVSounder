@@ -79,7 +79,7 @@ The guidance-chapter consists of the following subchapters:
 
 ## Surveypath
 From the API, a convex polygon is sent through an MQTT Broker in the shape of points in latitude and longitude. From this, a surveypath is created.
-![Surveypath](https://github.com/Kongberg-Maritime/Detection/blob/master/pictures/surveypath.png)
+![Surveypath](https://github.com/dr0nn1/USVSounder/blob/master/pictures/surveypath.png)
 
 *Image of a surveypath covering a possible search area.*
 
@@ -89,7 +89,7 @@ The lines are starting 50 meters outside of the search area. This is to help the
 
 ## Waypoints
 The surveypath is translated into point coordinates in a local North-East-Down (NED) coordinate system. 
-![Waypoints](https://github.com/Kongberg-Maritime/Detection/blob/master/pictures/VisualizationOfRun.png)
+![Waypoints](https://github.com/dr0nn1/USVSounder/blob/master/pictures/VisualizationOfRun.png)
 *Image of an earlier version of the API showing the waypoints, surveylines and the current surveyline (in bold). Note that the search area in this case is the thin, long polygon that is slightly less opaque than the other polygon. The different colors in the wake of the vessel represents the different [modes](#mode) it has been set to. Here, green represents nothing-mode and purple represents survey-mode.*
 
 The coordinates of each point is saved as part of a data structure called a *waypoint*. Each waypoint consists of the coordinates of the point, the desired speed over ground (SoG) with which the vessel should approach the point, the [acceptance distance](#acceptance-distance) and the [mode](#mode) in which the system should be in, approaching the point.
