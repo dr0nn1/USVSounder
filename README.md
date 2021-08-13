@@ -1,5 +1,7 @@
 # USV Sounder
-Making an automonus vessel that surveys the seabed, and can detect lobster traps from the data collected from a Multibeam Echo.
+Making an automonus vessel that surveys the seabed, and can detect lobster traps from the data collected from a Multibeam Echo.  
+See this [video](https://youtu.be/eW9WCYAyL6I?t=689) for a quick summary of what we have done. PS. Video is in norwegian  
+
 # Table of Contents
 - [Group](#group)
 - [Balder](#balder)
